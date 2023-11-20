@@ -1,0 +1,139 @@
+.search-all {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-top: 30px;
+}
+
+.search input {
+   width: 100%;
+   height: 50px;
+   border:none;
+   padding-left: 3%;
+   border-radius: 10px;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.search input:focus{
+    outline: none;
+}
+
+.search span{
+    position: absolute;
+    margin-top: 15px;
+    left: 68%; 
+}
+
+.search-by{
+ 
+   
+   display: flex;
+   justify-content: flex-end;
+
+}
+
+.search-by span{
+    height: 50px;
+        width: 50px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.7rem;
+        color: #ff7c7e;
+        border-radius: 7px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.categories-all{
+    margin-top: 30px;
+    padding-left: 7%;
+        padding-right: 7%;
+}
+.cat-heading{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+ .swiper {
+     width: 100%;
+     height: 100%;
+ }
+
+ .swiper-slide {
+     text-align: center;
+     font-size: 18px;
+     background: #fff;
+    
+ }
+
+ .swiper-slide img {
+     display: block;
+     width: 100%;
+     height: 100%;
+     /* object-fit: cover; */
+ }
+ .cat-box{
+    height: 450px;
+    margin-top: 30px;
+    
+ }
+
+ .cat-image{
+    height: 300px;
+    width: 100%;
+    
+ }
+.cat-image img{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    margin: auto;
+}
+ .cat-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-block: 20px;
+ }
+ .cat-name{
+display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+ }
+
+ .cat-p-all{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 10px;
+ }
+.cat-price{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+ .cat-plus {
+height: 50px;
+width: 50px;
+background-color: #ff7c7e;
+border-radius: 50%;
+
+ }
+ .cat-plus span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    color: #fff;
+    height: 50px;
+        width: 50px;
+
+ }
+ @media screen and (max-width: 700px) {
+ 
+ }

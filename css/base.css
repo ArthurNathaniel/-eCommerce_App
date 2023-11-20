@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'sf-pro-display_regular';
+    text-shadow: none;
+
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'sf-pro-display_regular';
+    background-color: #f8f8f8;
+    overflow-y: scroll;
+    margin-bottom: 100px;
+}
+
+@font-face {
+    font-family: 'sf-pro-display_regular';
+    src: url('sf-pro-display_regular.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 15px;
+}
+
+.h-one {
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.h-one span {
+    font-size: 1.5rem;
+    color: #ff7c7e;
+}
+
+.h-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    height: 50px;
+    width: 50px;
+    background-image: url(../images/profile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.h-three {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-all {
+    background-color: #fff;
+    position: absolute;
+    padding-block: 15px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 45;
+    padding-left: 7%;
+    padding-right: 7%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.foot a {
+    font-size: 1.2rem;
+    color: #ff7c7e;
+}
